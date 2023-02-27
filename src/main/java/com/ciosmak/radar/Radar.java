@@ -33,7 +33,7 @@ public class Radar
 
     public void startWork()
     {
-        while (true)
+        for (int i = 0; i < 1000; ++i)
         {
             notifyAboutNewShip();
         }
