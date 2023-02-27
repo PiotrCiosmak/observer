@@ -11,7 +11,9 @@ import java.util.Random;
 public class Radar
 {
     private static final double CHANCE_FOR_AN_ENEMY_SHIP = 0.05;
+
     private static final double CHANCE_FOR_A_FRIENDLY_SHIP = 0.10;
+
     List<Observer> subscribers;
 
     public Radar()
