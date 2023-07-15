@@ -12,12 +12,9 @@ void Subject::detach(IObserver* observer)
 
 void Subject::notify()
 {
-    std::list<IObserver*>::iterator iterator = observers.begin();
-    howManyObservers();
-    while (iterator != observers.end())
+    for (auto observer: observers)
     {
-        (*iterator)->update(message);
-        ++iterator;
+        observer->update(message);
     }
 }
 
