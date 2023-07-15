@@ -31,6 +31,5 @@ void Observer::printInfo()
 Observer::~Observer()
 {
     std::cout << "Goodbye, I was the Observer \"" << this->number << "\".\n";
-
 }
 

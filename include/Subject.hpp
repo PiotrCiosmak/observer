@@ -1,6 +1,8 @@
 #pragma once
 
 #include "ISubject.hpp"
+#include <iostream>
+#include <list>
 
 class Subject : public ISubject
 {

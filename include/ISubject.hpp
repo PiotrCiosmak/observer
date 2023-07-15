@@ -1,8 +1,6 @@
 #pragma once
 
 #include "IObserver.hpp"
-#include <iostream>
-#include <list>
 
 class ISubject
 {
